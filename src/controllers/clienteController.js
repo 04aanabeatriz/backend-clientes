@@ -1,10 +1,12 @@
 import { createClienteDTO } from "../dtos/createClienteDTO.js";
 
 export class ClienteController {
+  // Método especial Construtor
   constructor(clienteService) {
     this.clienteService = clienteService;
   }
 
+  // Métodos
   criar = (req, res) => {
     try {
       const dto = createClienteDTO(req.body);
