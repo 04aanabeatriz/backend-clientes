@@ -1,4 +1,8 @@
 export function createClienteDTO(data) {
+  /*
+  Trata-se de uma função e não uma Classe 
+  */
+
   const { nome, email, idade } = data;
 
   // Validação de entrada / formato
