@@ -1,6 +1,7 @@
 export function createClienteDTO(data) {
   /*
   Trata-se de uma função e não uma Classe 
+  Tem como parâmetro a body da requisição^giygi
   */
 
   const { nome, email, idade } = data;
